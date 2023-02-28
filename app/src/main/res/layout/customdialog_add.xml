@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email and Name"
+        android:textSize="40sp"
+        android:id="@+id/tvEmailandpassword"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmailandpassword"
+        android:id="@+id/etEmail"
+        android:hint="Email"
+        android:textSize="30sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail"
+        android:textSize="30sp"
+        android:hint="Name"
+        android:id="@+id/etName"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_centerInParent="true"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        />
+
+</RelativeLayout>
